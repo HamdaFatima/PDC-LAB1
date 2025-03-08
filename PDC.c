@@ -18,7 +18,7 @@ int main() {
     // Measure execution time
     start = clock();
     for (int i = 0; i < N; i++) {
-        sum += array[i]; 
+        sum += array[i]; // Accumulate the sum
     }
     end = clock();
 
